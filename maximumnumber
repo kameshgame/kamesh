@@ -1,0 +1,21 @@
+package maximumnumber;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class maximumnumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  int[] a=new int[25];
+  int i;
+Scanner sc=new Scanner(System.in);
+for(i=0;i<25;i++)
+{
+	a[i]=sc.nextInt();	
+}
+Arrays.sort(a);
+System.out.println(a[24]);
+}
+}
